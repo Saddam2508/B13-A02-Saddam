@@ -205,3 +205,58 @@ main > section {
   color: #ffffff;
   font-size: 1rem;
 }
+
+/* Why Choose TechWave */
+
+#tecwave {
+  background-color: #230e3d;
+}
+.techwave-content {
+  text-align: center;
+}
+
+.techwave-content h2 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+.techwave-card-box {
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 30px;
+}
+.row-span2 {
+  grid-row: span 2;
+}
+
+.column-span2 {
+  grid-column: span 2;
+}
+
+.techwave-card {
+  padding: 40px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  border-radius: 40px;
+  background-color: #351165;
+}
+.techwave-card-img img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 16px;
+}
+.techwave-card-img h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.techwave-card-img p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+}
