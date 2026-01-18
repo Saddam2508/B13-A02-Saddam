@@ -36,15 +36,6 @@
   font-size: 1rem;
   font-weight: 400;
 }
-/* main styles */
-/* header  section */
-header {
-  background-color: #1a0b2e;
-}
-
-.logo h1 {
-  color: #ffffff;
-}
 
 .gradient-bg {
   background: linear-gradient(to right, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
@@ -58,12 +49,21 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
+/* main styles */
+/* header  section */
+header {
+  background-color: #1a0b2e;
+  border: 1px solid saddlebrown;
+}
+
+.logo h1 {
+  color: #ffffff;
+}
+
 nav {
   justify-content: space-between;
   align-items: center;
   padding: 36px 0px;
-  border-image: linear-gradient(to right, #f7e93f 0%, #fb09b4 51%, #9100f8 100%)
-    1;
 }
 .menu {
   list-style: none;
@@ -145,8 +145,9 @@ nav {
   background-color: #00ff88;
   border: none;
   padding: 15px;
-  border-radius: 30px;
+  border-radius: 25px;
   left: 54%;
   top: -2px;
   font-size: 1rem;
+  cursor: pointer;
 }
