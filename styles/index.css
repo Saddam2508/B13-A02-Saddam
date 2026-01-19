@@ -212,12 +212,14 @@ main > section {
   background-color: #230e3d;
 }
 .techwave-content,
-.episod-content {
+.episod-content,
+.meet-content {
   text-align: center;
 }
 
 .techwave-content h2,
-.episod-content h2 {
+.episod-content h2,
+.meet-content h2 {
   color: #ffffff;
   font-size: 3rem;
   font-weight: 900;
@@ -264,7 +266,8 @@ main > section {
 }
 
 /* Featured Episodes */
-#episod {
+#episod,
+#meet {
   background-color: #1a0b2e;
 }
 .episod-box {
@@ -299,4 +302,30 @@ main > section {
   padding: 24px;
   flex-direction: column;
   gap: 10px;
+}
+/* Meet the Host */
+.meet-content-box {
+  gap: 24px;
+  background-color: #250d44;
+  padding: 40px;
+  border-radius: 25px;
+}
+.alex-img img {
+  width: 100%;
+}
+.alex-description {
+  flex-direction: column;
+  gap: 16px;
+}
+.alex-description h3 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.alex-description p {
+  color: #ffffff;
+  font-size: 1rem;
+}
+.alex-social {
+  gap: 25px;
 }
