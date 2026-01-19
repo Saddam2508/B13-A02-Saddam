@@ -37,6 +37,10 @@
   font-weight: 400;
 }
 
+.btn:hover {
+  background: linear-gradient(90deg, #f7e83f8a, #fb09b2b2, #9100f8b9);
+}
+
 .gradient-bg {
   background: linear-gradient(to right, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
 }
@@ -551,5 +555,25 @@ footer {
   .hamburger-menu img {
     height: 24px;
     width: 24px;
+  }
+  .banner-logo img:first-child {
+    width: 200px;
+  }
+  .banner-content h2 {
+    font-size: 3rem;
+  }
+  .podcast-content h2 {
+    font-size: 2rem;
+  }
+  .podcast-card h2 {
+    font-size: 2rem;
+  }
+  .techwave-content h2,
+  .episod-content h2,
+  .meet-content h2 {
+    font-size: 2rem;
+  }
+  .techwave-card-img p {
+    font-size: 0.8rem;
   }
 }
