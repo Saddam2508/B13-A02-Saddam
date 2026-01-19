@@ -16,7 +16,7 @@
 }
 .container {
   width: 91%;
-  max-width: 1240px;
+  max-width: 1340px;
   margin: 0 auto;
 }
 
@@ -211,11 +211,13 @@ main > section {
 #tecwave {
   background-color: #230e3d;
 }
-.techwave-content {
+.techwave-content,
+.episod-content {
   text-align: center;
 }
 
-.techwave-content h2 {
+.techwave-content h2,
+.episod-content h2 {
   color: #ffffff;
   font-size: 3rem;
   font-weight: 900;
@@ -259,4 +261,42 @@ main > section {
   font-size: 1rem;
   font-weight: 700;
   color: #ffffff;
+}
+
+/* Featured Episodes */
+#episod {
+  background-color: #1a0b2e;
+}
+.episod-box {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.episod-card {
+  background-color: #250d44;
+  flex-direction: column;
+  gap: 10px;
+}
+.episod-card iframe {
+  border-radius: 25px;
+  width: 100%;
+}
+.episod-card h3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.episod-card p {
+  color: #ffffff;
+  font-size: 1rem;
+}
+.episod-time {
+  align-items: center;
+  gap: 6px;
+}
+.episod-video-content {
+  padding: 24px;
+  flex-direction: column;
+  gap: 10px;
 }
