@@ -329,3 +329,9 @@ main > section {
 .alex-social {
   gap: 25px;
 }
+footer {
+  background-image: url(/assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 412px;
+}
