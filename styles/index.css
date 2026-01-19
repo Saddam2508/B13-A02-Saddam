@@ -81,8 +81,9 @@ nav {
   background-image: url(../assets/hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 760px;
+  /* height: 760px; */
   padding: 100px 0px;
+  background-position: center;
 }
 .banner-logo {
   justify-content: center;
@@ -360,4 +361,121 @@ footer {
 .footer-container p {
   color: #fafafa;
   font-size: 1rem;
+}
+
+/* =====================
+   Responsive Devices
+===================== */
+
+@media screen and (max-width: 2500px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+/* Large Desktop / Laptop */
+@media screen and (max-width: 1200px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+/* Large Laptop */
+@media screen and (max-width: 1024px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+/* Tablet (Landscape) */
+@media screen and (max-width: 992px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+/* Tablet / Mobile (Portrait) */
+@media screen and (max-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+/* Mobile */
+@media screen and (max-width: 576px) {
+  main > section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+  }
+  .hamburger-menu img {
+    height: 24px;
+    width: 24px;
+  }
+  .banner {
+    width: 100%;
+  }
+
+  .podcast-card-box {
+    margin-top: 100px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .techwave-content h2,
+  .episod-content h2,
+  .meet-content h2 {
+    font-size: 2.5rem;
+  }
+  .techwave-card-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .row-span2 {
+    grid-row: span 1;
+  }
+  .column-span2 {
+    grid-column: span 1;
+  }
+  .episod-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .meet-content-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .alex-description {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  footer {
+    width: 100%;
+  }
+  .footer-container {
+    padding: 90px 0px;
+  }
+  .footer-logo {
+    font-size: 2rem;
+    margin-bottom: 24px;
+  }
+  .footer-social {
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 250px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Small Mobile (Very small devices) */
+@media screen and (max-width: 350px) {
+  .mobile-nav {
+    display: flex;
+  }
+  .hamburger-menu img {
+    height: 24px;
+    width: 24px;
+  }
 }
