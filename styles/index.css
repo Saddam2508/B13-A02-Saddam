@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
   margin: 0px;
@@ -9,7 +9,7 @@
 /* share styles */
 
 .inter-font {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 
   font-style: normal;
@@ -211,17 +211,17 @@ main > section {
 
 @keyframes fastSpin {
   from {
-    transform: rotate(0deg);
+    transform: rotateX(0);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotateX(360deg);
   }
 }
-#podcast:hover .podcast-card {
+#podcast:hover .podcast-card h2 {
   animation-name: fastSpin;
-  animation-duration: 0.35s;
+  animation-duration: 0.2s;
   animation-timing-function: linear;
-  animation-iteration-count: 3;
+  animation-iteration-count: 7;
 }
 
 .podcast-card h2 {
